@@ -9,6 +9,8 @@ The foundation logic, could be split into further classes but currently holds ex
 ## NpcHealth.cs
 Health logic, handles npc UI healthbar & taking damage logic
 
+## HelperMethods.cs
+Contains various helper methods for the npc sight and hearing
 
 ## NpcStates > NpcStateManager.cs
 The State Manager is a singleton class that holds an instance of all the Npc's states (idle, investigating, dead etc..) and runs the logic to switch between them.
