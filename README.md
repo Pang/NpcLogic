@@ -1,10 +1,9 @@
 # NpcLogic
-NPC base, health &amp; state logic written in C# for Unity
+NPC base, health &amp; state logic written in C# for Unity using the Finite-State Machine Pattern
 
 ## NpcBase.cs
 The foundation logic, could be split into further classes but currently holds expected properties/components, as well as logic for becoming alerted/alarmed 
 (alerted means it's suspicous and will investigate where it last heard you, alarmed means it knows you're there and they're coming!)
-
 
 ## NpcHealth.cs
 Health logic, handles npc UI healthbar & taking damage logic
